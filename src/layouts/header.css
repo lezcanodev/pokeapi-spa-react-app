@@ -1,0 +1,41 @@
+.header{
+    background:url('../resources/pokemonLogo.png');
+    background-size: 130px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(249, 249, 249, 0.771);
+    height: 50px;
+    padding: 8px 10px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.your-pokemons{
+    text-align: left;
+    cursor: pointer;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border:1px solid red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.your-pokemons span{
+    background-color: red;
+    color:#fff;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

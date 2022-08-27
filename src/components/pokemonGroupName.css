@@ -1,0 +1,11 @@
+.pokemon-group-names{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+}
+
+.pokemon-name{
+    padding: 3px 8px;
+    color:rgb(60, 60, 60);
+}

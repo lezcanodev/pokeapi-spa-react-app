@@ -1,0 +1,48 @@
+.aside{
+    max-width: 270px;
+    padding: 0 8px;
+}
+
+.aside-block{
+    box-sizing: border-box;
+    background-color: rgba(210, 210, 210, 0.303);
+    border:1px solid rgba(255, 255, 255, 0.498);
+    margin-top: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.aside-block:first-child{
+    padding: 8px ;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+.aside-block:first-child input,
+.aside-block:first-child button{
+    outline: 0;
+    border: none;
+    padding: 10px 10px;
+}
+
+.aside-block:first-child input{
+    width: 100%;
+}
+
+.aside-block:first-child button{
+    background: url('../resources/search.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+
+    cursor: pointer;
+   
+}
